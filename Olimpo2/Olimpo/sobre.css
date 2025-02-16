@@ -1,0 +1,74 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007c00;
+    padding: 15px 30px;
+}
+
+.navbar .logo img {
+    height: 100px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar ul li a:hover {
+    color: #00ff1a;
+}
+
+section article {
+    text-align: center;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.sobre {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 800px; /* Define uma largura máxima */
+    margin: 40px auto; /* Centraliza e dá espaçamento */
+    padding: 20px;
+    text-align: justify; /* Melhor alinhamento do texto */
+    background: rgba(255, 255, 255, 0.9); /* Fundo levemente transparente */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona um leve sombreado */
+}
+
+
+footer {
+    background-color: #00301a;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 15px 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+footer a {
+    color: #ffffff;
+}
+
+footer a:hover, footer a:focus {
+    text-decoration: underline;
+    color: #00ff1a;
+}
+
+.contatos a {
+    color: rgb(40, 255, 55);
+}

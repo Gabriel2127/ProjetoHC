@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(./imagens-projetos/esportes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; /* Faz a imagem cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita repetição */
+    background-attachment: fixed; /* Mantém a imagem fixa ao rolar a página */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 15px 30px;
+}
+
+.navbar .logo img {
+    height: 100px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: rgb(0, 133, 33);
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar ul li a:hover {
+    color: #00ff1a;
+}
+
+section article {
+    text-align:center;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.container-branco{
+    max-width: 500px;
+    min-height: 400px;
+    margin: 50px auto;
+    padding: 35px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9); /* Fundo branco translúcido */
+    border-radius: 25px;
+    box-shadow: 0 0 65px rgba(0, 0, 0, 0.5);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container-verde{
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: rgba(132, 255, 110, 0.599);
+    border-radius: 25px;
+    box-shadow: 0 0 0 6px rgba(84, 255, 54, 0.5);
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container h1{
+    text-align: center;
+}
+.form-container button{
+    width: 100%;
+    padding: 10px;
+    background-color: #00951e;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+footer {
+    background-color: #00301a;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer a {
+    color: #ffffff;
+}
+
+footer a:hover, footer a:focus {
+    text-decoration: underline;
+    color: #00ff1a;
+}
+
+.contatos a {
+    color: rgb(40, 255, 55);
+}

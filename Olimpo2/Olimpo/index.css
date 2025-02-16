@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007c00;
+    padding: 15px 30px;
+}
+
+.navbar .logo img {
+    height: 100px;
+}
+
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar ul li a:hover {
+    color: #00ff1a;
+}
+
+section article {
+    text-align: center;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+
+.search-container {
+    position: relative;
+    width: 300px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #00ff33;
+    border-radius: 25px;
+    outline: none;
+    font-size: 16px;
+}
+
+.search-button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #007bff;
+}
+
+footer {
+    background-color: #00301a;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 15px 0;
+}
+
+footer a {
+    color: #ffffff;
+}
+
+footer a:hover, footer a:focus {
+    text-decoration: underline;
+    color: #00ff1a;
+}
+
+.contatos a {
+    color: rgb(40, 255, 55);
+}
+
+#noticias {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    overflow-x: auto;
+}
+
+.barra {
+    background-color: #3a3a3a;
+    color: #f0f0f0;
+    text-align: center;
+    /* Centralizar o texto */
+    padding: 10px;
+    /* Espaçamento interno */
+    font-size: 18px;
+    /* Tamanho do texto */
+    font-weight: bold;
+    /* Negrito */
+}
+
+
+.barra2 {
+    background-color: #00970d;
+    /* Cor de fundo */
+    color: white;
+    /* Cor do texto */
+    text-align: center;
+    /* Centralizar o texto */
+    padding: 10px;
+    /* Espaçamento interno */
+    font-size: 18px;
+    /* Tamanho do texto */
+    font-weight: bold;
+    /* Negrito */
+}
+
+.card-caixa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background: white;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-align: center;
+    border: 3px solid #008500;
+    /* Adiciona uma borda azul */
+    border-radius: 10px;
+    /* Deixa as bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Adiciona sombra */
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card h2 {
+    margin: 10px 0;
+    font-size: 22px;
+    color: #333;
+}
+
+.card p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.card button {
+    background: #008500;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card button:hover {
+    background: #005600;
+}
+
+.grade-card {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    overflow-x: auto;
+}
+
+.texto1 {
+    text-align: center;
+}
+
+.camp {
+    background-color: #00970d;
+    /* Cor de fundo */
+    color: white;
+    /* Cor do texto */
+    text-align: center;
+    /* Centralizar o texto */
+    padding: 10px;
+    /* Espaçamento interno */
+    font-size: 18px;
+    /* Tamanho do texto */
+    font-weight: bold;
+    /* Negrito */
+}
+
+.camp {
+    margin-top: 40px;
+}
