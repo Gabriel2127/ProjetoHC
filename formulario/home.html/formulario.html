@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/stylus/stylus.css">
+    <link rel="stylesheet" href="src/stylus/header.css">
+    <title>Login</title>
+</head>
+<body>
+    <section id="cadastro">
+        <div class="box">
+            <h2>Cadastre-se</h2>
+                <form action="conexao.php" method="POST" id="formx">
+                <div class="boxnum">
+                    <label for="nome" class="titulobox">Nome</label>
+                    <input class="quadrados" id="nome" type="text" name="nome" placeholder="Digite seu nome"
+                        required>
+                </div>
+                <div class="boxnum">
+                    <label for="email" class="titulobox">Email</label>
+                    <input class="quadrados" id="email" type="email" name="email" placeholder="Digite seu email"
+                        required>
+                </div>
+                <div class="boxnum">
+                    <label for="senha" class="titulobox">Senha</label>
+                    <input class="quadrados" id="senha" type="password" name="senha" placeholder="Password" minlength="6" maxlength="8" required>
+                </div>
+                <div class="boxnum">
+                    <label for="datanasc" class="titulobox">Data de Nascimento</label>
+                    <input class="quadrados" id="datanasc" type="date" name="data_nasc" placeholder="xx/xx/xxxx">
+                </div>
+                <div class="boxnum">
+                    <label for="tel" class="titulobox">Telefone</label>
+                    <input class="quadrados" id="tel" type="text" name="tel" placeholder="(xx)x xxx-xxx" maxlength="15"required>
+                </div>
+                <div class="boxnum">
+                    <label for="altura" class="titulobox">Altura</label>
+                    <input class="quadrados" id="altura" type="text" name="altura" placeholder="Digite sua altura" minlength="4" maxlength="4" required>
+                </div>
+
+                <div class="boxnum">
+                    <label for="peso" class="titulobox">Peso</label>
+                    <input class="quadrados" id="peso" type="text" name="peso" placeholder="Digite seu peso" minlength="3" maxlength="6" required>
+                </div>
+
+                <div class="boxnum">
+                    <input type="submit" id="concluir" name="submit" value="CADASTRAR">
+                </div>
+                </form>
+        
+                </a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

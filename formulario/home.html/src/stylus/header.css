@@ -1,0 +1,47 @@
+header{
+    background-color: black;
+}
+
+
+#navbar {
+   
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+    background-color: black;
+    img{
+        margin: 2rem;
+    }
+}
+
+#nav_list{
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding-bottom: 4px;
+    transition: all 0.5s ease-in-out;
+    background-color: black;
+}
+
+.nav-item a:hover {
+    color: red;
+    border-bottom: 1px solid red;
+}
+    
+.usuario a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 15px  ;
+    font-weight: 600;
+}
+.flex {
+    display: flex;
+}
